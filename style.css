@@ -1,0 +1,114 @@
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #222;
+  background: #fff;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 32px 24px 60px;
+}
+
+.site-title {
+  font-size: 34px;
+  font-weight: normal;
+  margin: 0 0 18px;
+}
+
+.site-title a {
+  color: #222;
+  text-decoration: none;
+}
+
+nav {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 12px 0;
+  margin-bottom: 36px;
+}
+
+nav a {
+  margin-right: 22px;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.profile {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+}
+
+.profile img {
+  width: 210px;
+  max-width: 100%;
+  border-radius: 2px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 36px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+
+h3 {
+  font-size: 19px;
+  margin-bottom: 4px;
+}
+
+p {
+  margin-top: 0;
+}
+
+a {
+  color: #0645ad;
+}
+
+.section-divider {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 32px 0;
+}
+
+.item {
+  margin-bottom: 28px;
+}
+
+.meta {
+  color: #666;
+  font-size: 15px;
+}
+
+footer {
+  border-top: 1px solid #ddd;
+  margin-top: 48px;
+  padding-top: 18px;
+  font-size: 14px;
+  color: #666;
+}
+
+@media (max-width: 650px) {
+  .profile {
+    display: block;
+  }
+
+  .profile img {
+    width: 180px;
+    margin-bottom: 20px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin-bottom: 8px;
+  }
+}
